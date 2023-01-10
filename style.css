@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(227, 232, 236);
+    font-family: 'Sofia Sans', sans-serif;
+}
+.body {
+    display: flex;
+}
+.left {
+    width: 100%;
+    height: 500px;
+}
+.left img {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    background-color: white;
+    width: 500px;
+    height:600px;
+    position: relative;
+    top: -350px;
+    left: 500px;
+    border-radius: 35px;
+}
+.main img {
+    width: 100%;
+    border-radius: 35px 35px 0px 0px;
+}
+.plan {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(207, 218, 218);
+    margin: 20px 40px;
+    border-radius: 25px;
+    position: relative;
+}
+.plan img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.main a {
+    margin: 35px 0px 20px 80px;
+}
+
+.payment {
+    background-color: blue;
+    margin: 20px 40px;
+    padding: 0px 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(107, 107, 199);
+
+}
+.payment h3 {
+    padding: 10px;
+} 
+.order h3 {
+    text-align: center;
+    opacity: 0.3;
+} 
